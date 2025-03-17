@@ -1,5 +1,10 @@
 body {
     text-align: center;
+    background-image: url(../img/karachun_light_GkkH0bo.jpg);
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 #gameArea {
     width: 800px;
@@ -8,6 +13,7 @@ body {
     background: black;
     margin: auto;
     overflow: hidden;
+    opacity: 0.6;
 }
 .ball, .paddle, .block, .bonus {
     position: absolute;
